@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario1</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<form>
+		<div class="form-group">
+			<label for = "exemploemail">Email</label>
+			<input type="email" class="form-control" id="exemploemail" placeholder="nome@exemplo.com" area-describedby="emailhelp">
+			<small class="form-text text-muted">Nao pastilharemos seu email a ninguem</small>
+		</div>
+
+		<div class="form-group">
+			<label for="exemploselect">Select</label>
+			<select class="form-control" id="exemploselect">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="exemploselect">Select</label>
+			<select multiple class="form-control" id="exemploselect">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for ="exempletext"></label>
+			<textarea class="form-control" id="exempletext" rows="8"></textarea>
+		</div>
+
+		<div class="form-group">
+			<label for="examplefile">Upload file</label>
+			<input type="file" class="form-control-file" id="examplefile">
+		</div>
+	</form>
+</body>
+</html>

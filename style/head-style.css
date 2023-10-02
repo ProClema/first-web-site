@@ -1,0 +1,113 @@
+
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(204, 226, 233);
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.left {
+  padding-right: 25px;  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+
+.center-div {
+  margin-left: -360px;
+}
+
+.right {
+
+}
+
+
+.paragraph-head1 {
+  padding: 20px 1px 1px 1px;
+  font-size: 28px;
+  text-align: center; 
+}
+
+.contact-head, .contact-imag-head,.facebook-paragraph, .facebook-imag-head, .e-mail-div, .email-imag-head {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contact-head, .facebook-paragraph {
+  margin-right: 15px;
+}
+
+.paragraph-head-phone, .paragraph-head-phone-number,.paragraph-facebook, .paragraph-facebook2, .paragraph-email, .paragraph-email2 {
+  margin-left: 10px;
+}
+
+.imag-head, .facebook-imag, .email-imag  {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 30px;
+  margin-left: 4px;
+  margin-top: 5px;
+}
+
+.imag-glass {
+  width: 24px;
+  vertical-align: top;
+}
+
+
+.search-bar-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  border-color: rgb(130, 126, 126);
+  border-style: solid;
+  width: 171px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+
+.search-bar-input {
+  border-style: solid;
+  border-color: white;
+}
+
+.img-glass-button {
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+}
+
+
+
+.enter-bar-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-left: 95px;
+  border-style: solid;
+  border-color: rgb(130, 126, 126);
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+
+
+.button-img {
+  height: 30px;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+
+}
+.enter-button {
+  height: 30px;
+  padding: 5px;
+  padding-right: 10px;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+}

@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Roboto;
+}
+.header1, .header2, .head-div2 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: rgb(181, 96, 96);
+  height: 100px; 
+}
+
+.header2 {
+  grid-template-columns: 3fr 1fr;
+}
+
+.head-div2 {
+  grid-template-columns: 0.1fr 10fr;
+}
+
+.div-head1, .image-head2, .search-bar {
+  margin-top:10px ;
+  margin-bottom:10px ;
+}
+.conct-contact {
+  margin-top:10px ; 
+}
+
+.parag-head1 {
+  padding-left: 15px;
+  font-size: 30px;
+  text-align: left;
+  color: gold;
+}
+
+
+.contact-head, .contact-imag-head,.facebook, .facebook-imag-head, .e-mail, .email-imag-head {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contact-head, .facebook {
+  margin-right: 15px;
+}
+
+.parag-head, .parag-head2,.parag-facebook, .parag-facebook2, .parag-email, .parag-email2 {
+  margin-left: 10px;
+  color: yellow;
+}
+
+.imag-head, .facebook-imag, .email-imag  {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 30px;
+  margin-left: 4px;
+  margin-top: 5px;
+}
+
+
+
+
+
+.image-head2, .image-login-head {
+  background-color: white;
+  height: 28px;
+  vertical-align: top;
+}
+
+.image-head2 {
+
+  margin-left: 1px;
+
+
+}
+
+.imag-glass {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  width: 23px;
+ 
+}
+
+.search-bar {
+  height: 25px; 
+  border-width: 1.5px;
+  border-color: whitesmoke;
+  border-style: solid;
+}
+
+
+
+.imag-login {
+  object-fit: cover;
+  width: 28px;
+}
+
+.first-button { 
+  padding: 4.7px;
+  border-bottom: 1px;
+  border-width: 1.3px;
+  border-color: white;
+  border-style: solid;
+}
+
+
